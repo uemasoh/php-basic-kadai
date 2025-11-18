@@ -18,12 +18,12 @@ class Animal {
   private $name;
   private $height;
   private $weight;
-  public function show_height($height) {
+  public function show_height() {
     echo $this -> height."<br>";
   }
   public function __construct($name,$height,$weight){
     $this ->name = $name;
-    $this ->price = $height;
+    $this ->height = $height;
     $this ->weight = $weight;
   }
  
